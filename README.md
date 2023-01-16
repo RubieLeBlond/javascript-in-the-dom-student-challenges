@@ -13,6 +13,10 @@ These exercises will also teach you:
 
 Please [fork this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) into your own so that you can push up your solutions for future reference.
 
+### Recommendation - VS Code & Live Server
+
+I would recommend using [VS Code](https://code.visualstudio.com/download) as your IDE for these challenges. I'd also recommend installing the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) VS Code extension so that you don't have to continually refresh your browser each time you make a code change.
+
 ### How are the activities structured?
 
 Each folder represents a single exercise, and should be worked through in order
