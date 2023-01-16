@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+#element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: darkolivegreen;
+  color: #ffffff;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 100%;
+}
