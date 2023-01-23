@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Work through these exercises to familiarise yourself with connecting [vanilla JavaScript](https://www.javatpoint.com/what-is-vanilla-javascript) to a HTML document so it can be used in the browser. Activities 5 and 6 transition from vanilla JavaScript to React.
+Work through these exercises to familiarise yourself with connecting [vanilla JavaScript](https://www.javatpoint.com/what-is-vanilla-javascript) to a HTML document so it can be used in the browser. Activities 5, 6 and 7 transition from vanilla JavaScript to React.
 
 These exercises will also teach you:
 
