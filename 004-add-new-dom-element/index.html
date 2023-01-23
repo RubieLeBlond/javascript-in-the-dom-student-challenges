@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a New DOM Element with Javascript</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex items-center justify-center min-h-screen p-8">
+    <div id="root"></div>
+    <!-- https://www.w3schools.com/html/html_id.asp - the HTML id attribute -->
+
+    <script type="module">
+      // 🤓 1. Get the div with id of 'root' and store it in a variable. You can simply uncomment the line below...
+      // 💰 const root = document.querySelector("#root");
+
+      // 🤓 2. Create a new div element with document.createElement and assign it to the `newDiv` variable below.
+      // Uncomment the line and finish the code:
+      // 💰 const newDiv = document.createElement("...");
+      // createElement: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement#examples
+
+      // 🤓 3. Set the new div's textContent to 'Hello World' and className to 'text-green-700'.
+      // Uncomment the line and finish the code:
+      // 💰 newDiv.textContent = '...'
+      // https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent#examples
+      // 💰 newDiv.className = '...'
+      // classNamehttps://www.w3schools.com/jsref/prop_html_classname.asp
+
+      // Append the new div to the root div using `append`
+      // 💰 rootDiv.append(...)
+      // append: https://developer.mozilla.org/en-US/docs/Web/API/Element/append#appending_an_element
+
+      // EXTRA CREDIT: Can you use JavaScript to create the root div as well as everything else?
+    </script>
+  </body>
+</html>

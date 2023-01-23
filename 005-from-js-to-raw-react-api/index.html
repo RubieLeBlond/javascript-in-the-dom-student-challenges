@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raw React API</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="flex items-center justify-center min-h-screen">
+    <div id="root"></div>
+
+    <!-- Instructions for this can be found in the raw-react-instructions.md file -->
+
+    <!-- 🤓 1. Add React and ReactDOM to the page.
+         💰 Here are script tags that'll do the job - just uncomment them:
+    -->
+    <!-- <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script> -->
+
+    <script type="module">
+      const rootElement = document.querySelector("#root");
+
+      // You're going render exactly the same thing as before (ie. the words 'Hello World'
+      // written in green text), but instead of using vanilla JavaScript, we will use use the
+      // the raw React API instead.
+
+      // First we will define what element type we want as a simple string value
+      const elementType = "div";
+      // Next, we will create an object that contains the CSS class we want to assign,
+      // and our 'Hello World' message. Notice these are assigned as 'className' and 'children'
+      // respectively in React
+      const elementProps = {
+        className: "text-green-700",
+        children: "Hello World",
+      };
+
+      // Finally, we will call React.createElement to bring these attributes together
+      // (🔗 https://beta.reactjs.org/reference/react/createElement)
+      // 🤓 2. Uncomment and complete the code below:
+
+      // 💰 const reactElement = React.createElement(..., ...);
+      // 💰 ReactDOM.render(..., ...);
+
+      // 💰 The example in the markdown file should be a good hint for you.
+    </script>
+  </body>
+</html>

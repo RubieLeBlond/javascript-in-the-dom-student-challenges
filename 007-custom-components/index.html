@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Components</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="flex items-center justify-center min-h-screen">
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+
+    <script type="text/babel">
+      // 🤓 1. Make a function called `Message` which returns the JSX we want to share.
+      // 💰 See the custom-components.md file for hints
+
+      // 🤓 use that function in place of the divs below with:
+      // 💰 <Message>Hello World</Message>
+      // 💰 <Message>Goodbye World</Message>
+      const element = (
+        <div className="container">
+          <div className="text-green-700">Hello World</div>
+          <div className="text-green-700">Goodbye World</div>
+        </div>
+      );
+
+      ReactDOM.render(element, document.getElementById("root"));
+    </script>
+  </body>
+</html>
