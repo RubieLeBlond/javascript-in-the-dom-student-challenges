@@ -23,7 +23,7 @@ Let's say the DOM we want to generate is like this:
 In this case, it would be cool if we could reduce the duplication for creating
 the React elements for this:
 
-```jsx
+```html
 <div className="instruction">{children}</div>
 ```
 
