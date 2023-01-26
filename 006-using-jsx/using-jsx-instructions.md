@@ -43,8 +43,6 @@ can inspect using DevTools).
 
 ### 1. 💯 interpolate className and children
 
-[Production deploy](http://react-fundamentals.netlify.app/isolated/final/03.extra-1.html)
-
 "Interpolation" is defined as "the insertion of something of a different nature
 into something else."
 
@@ -56,8 +54,7 @@ const subject = "World";
 const message = `${greeting} ${subject}`;
 ```
 
-See if you can figure out how to extract the `className` (`"container"`) and
-`children` (`"Hello World"`) to variables and interpolate them in the JSX.
+See if you can store the `className` and `children` values as variables, and then figure out how to interpolate them into the JSX.
 
 ```jsx
 const className = "container";
