@@ -3,23 +3,17 @@
 ## Background
 
 React is the most widely used frontend framework in the world and it's using the
-same APIs that you're using when it creates DOM nodes.
+same APIs that you've been using when it creates DOM nodes.
 
 > In fact,
 > [here's where that happens in the React source code](https://github.com/facebook/react/blob/48907797294340b6d5d8fecfbcf97edf0691888d/packages/react-dom/src/client/ReactDOMComponent.js#L416)
 > at the time of this writing.
 
-One important thing to know about React is that it supports multiple platforms
-(for example, native and web). Each of these platforms has its own code
-necessary for interacting with that platform, and then there's shared code
-between the platforms.
+React uses two JavaScript files to write applications for the web:
 
-With that in mind, you need two JavaScript files to write React applications for
-the web:
-
-- React: responsible for creating React elements (kinda like
+- React: responsible for creating React elements (sort of like
   `document.createElement()`)
-- ReactDOM: responsible for rendering React elements to the DOM (kinda like
+- ReactDOM: responsible for rendering React elements to the DOM (sort of like
   `rootElement.append()`)
 
 ## Exercise
