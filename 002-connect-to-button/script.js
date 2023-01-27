@@ -3,9 +3,9 @@
 // querySelector examples: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector#examples
 // getElementById examples: https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#examples
 
-const buttonElem = ;
-
-buttonElem.addEventListener("click", () => {
+const buttonElem = buttonElem.addEventListener("click", () => {
   const oldText = buttonElem.innerText;
   return (buttonElem.innerText = oldText === "ON" ? "OFF" : "ON");
+
+  const buttonElem = document.getElementById(`MyButton`);
 });
