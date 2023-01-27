@@ -1,1 +1,1 @@
-<script src="external.js"></script>;
+console.log(`Test`);
